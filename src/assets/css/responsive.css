@@ -1,0 +1,106 @@
+@media only screen and (max-width: 1440px) {
+    ::-webkit-input-placeholder {
+        font-size: 14px;
+    }
+    ::-moz-placeholder {
+        font-size: 14px;
+    }
+    :-ms-input-placeholder {
+        font-size: 14px;
+    }
+    :-moz-placeholder {
+        font-size: 14px;
+    }
+    .last-blk h5 {
+        font-size: 16px;
+    }
+    label {
+        font-size: 14px;
+    }
+    .btn-filled {
+        font-size: 16px;
+    }
+    .login-right {
+        width: 35%;
+        margin-right: 50px;
+        margin-top: 60px;
+    }
+    .login2blk .centeraligndiv {
+        padding: 20px 90px;
+    }
+    
+    .logindiv form {
+        margin-top: 40px;
+    }
+    .button-space {
+        margin: 30px 0px 60px 0px;
+    }
+    .custommodal .form-control {
+        font-size: 14px;
+    }
+    .leftMainMenu>ul>li .iconblk {
+        font-size: 18px;
+    }
+    .logindiv h3 {
+        font-size: 22px;
+    }
+    .logindiv a {
+        font-size: 14px;
+    }
+    .login-left h4 {
+        font-size: 41px;
+        margin-top: 66px;
+    }
+    .logindiv .form-control {
+        font-size: 16px;
+    }
+    .filter-ttl h3 {
+        font-size: 24px;
+    }
+    .filter-ttl .btn-filled {
+        font-size: 14px;
+    }
+    .search-blk ::-webkit-input-placeholder {
+        font-size: 15px;
+    }
+    .search-blk ::-moz-placeholder {
+        font-size: 15px;
+    }
+    .search-blk :-ms-input-placeholder {
+        font-size: 15px;
+    }
+    .search-blk :-moz-placeholder {
+        font-size: 15px;
+    }
+    .custom-table thead th {
+        font-size: 16px;
+    }
+    .custom-table td {
+        font-size: 14px;
+    }
+    .custommodal .modal-title {
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .minWidth132 {
+        min-width: 240px;
+        max-width: 240px;
+    }
+    .logoCol p {
+        font-size: 15px;
+    }
+    .search-blk span.input-group-text i {
+        font-size: 20px;
+    }
+    /* Div table css */
+    .table-body .col {
+        font-size: 14px;
+    }
+    .table-header .col {
+        font-size: 16px;
+    }
+    .poweredby p {
+        font-size: 11px;
+        margin-bottom: 0;
+    }
+}
