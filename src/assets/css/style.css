@@ -206,3 +206,6 @@ animation: spin 2s linear infinite;
 .loginForm{
   margin: 10px;
 }
+.req{
+  color: red;
+}
