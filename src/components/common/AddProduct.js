@@ -31,9 +31,15 @@ class AddProduct extends Component {
         this.setState({ [name]: value })
     }
     addProduct(){
-        if(this.state.Name==="")
+        if(this.state.Name.trim().length===0)
         {
             alert('Name can not be left blank.')
+            return
+        }else if(this.state.Price===""){
+            alert('Price can not be left blank.')
+            return
+        }else if(this.state.Quantity===""){
+            alert('Quantity can not be left blank.')
             return
         }
         let note={
@@ -62,7 +68,7 @@ class AddProduct extends Component {
                             <div id="addDeviceTypeMsg"></div>
                             <form className="form-animate-fields">
                                 <div className="form-group">
-                                    <label className="form-control-placeholder">Name</label>
+                                    <label className="form-control-placeholder">Name</label><span className="req">*</span>
                                     <input type="text" name="Name" className="formValidate form-control"  data-type="title" value={this.state.Name} onChange={(e) => this.setValue(e)} />
                                 </div>
                                 {/* <div className="form-group">
@@ -73,11 +79,11 @@ class AddProduct extends Component {
                                 <textarea name="Description" className="formValidate form-control" id='comment' data-type='comment' onChange={(e) => { this.setValue(e) }} value={this.state.Description} rows="2"
                                 ></textarea>
                                 <div className="form-group">
-                                    <label className="form-control-placeholder">Price</label>
+                                    <label className="form-control-placeholder">Price</label><span className="req">*</span>
                                     <input type="number" name="Price" className="formValidate form-control"  data-type="title" value={this.state.Price} onChange={(e) => this.setValue(e)} />
                                 </div>
                                 <div className="form-group">
-                                    <label className="form-control-placeholder">Quantity</label>
+                                    <label className="form-control-placeholder">Quantity</label><span className="req">*</span>
                                     <input type="number" name="Quantity" className="formValidate form-control"  data-type="title" value={this.state.Quantity} onChange={(e) => this.setValue(e)} />
                                 </div>
                                 <div className="form-group">
